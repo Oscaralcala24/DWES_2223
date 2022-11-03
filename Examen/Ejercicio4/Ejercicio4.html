@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="Ejercicio4.js"></script>
+</head>
+<body>
+    <form action="" id="formulario">
+        <fieldset>
+            <legend>Datos de la cita</legend>
+            <label for="dni">Introduce tu DNI: </label><br>
+            <input type="text" name="dni" id="dni" required><br>
+            <label for="nombre">Introduce tu nombre: </label><br>
+            <input type="text" name="nombre" id="nombre" required><br>
+            <label for="fecha">Introduce fecha de la cita: </label><br>
+            <input type="text" name="fecha" id="fecha" required><br>
+            <label for="hora">Introduce hora de la cita: </label><br>
+            <input type="text" name="hora" id="hora" required><br>
+            <label for="medio"> Medio de confirmación: </label><br>
+            <label for="movil">Movil: </label>
+            <input type="text" name="movil" id="movil">
+            <input type="checkbox" name="email" id="movilCheck"><br>
+            <label for="movil">Email: </label>
+            <input type="text" name="email" id="email">
+            <input type="checkbox" name="email" id="emailCheck"><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="resetear">
+            <input type="button" value="cargarDatos" onclick="rescatarDatos()">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "6363d6bd57f14a271f2a2b9f"
+  },
+  "titulo": "Fight Club",
+  "director": "Chuck Palahniuk",
+  "anio": 1999,
+  "actores": [
+    "Brad Pitt",
+    "Edward Norton"
+  ]
+},{
+  "_id": {
+    "$oid": "6363d6bd57f14a271f2a2ba0"
+  },
+  "titulo": "Pulp Fiction",
+  "director": "Quentin Tarantino",
+  "anio": 1994,
+  "actores": [
+    "John Travolta",
+    "Uma Thurman",
+    "Samuel L. Jackson"
+  ]
+},{
+  "_id": {
+    "$oid": "6363d81657f14a271f2a2ba1"
+  },
+  "titulo": "Inglorious Basterds",
+  "director": "Quentin Tarantino",
+  "anio": 2009,
+  "actores": [
+    "Brad Pitt",
+    "Diane Kruger",
+    "Eli Roth"
+  ]
+},{
+  "_id": {
+    "$oid": "6363d81657f14a271f2a2ba2"
+  },
+  "titulo": "The Hobbit: An Unexpected Journey",
+  "director": "J.R.R. Tolkein",
+  "anio": 2012,
+  "saga": "The Hobbit",
+  "sinopsis": "A reluctant hobbit, Bilbo Baggins, sets out to the Lonely Mountain with a spirited group of dwarves to reclaim their mountain home - and the gold within it - from thedragon Smaug."
+},{
+  "_id": {
+    "$oid": "6363d81657f14a271f2a2ba3"
+  },
+  "titulo": "The Hobbit: The Desolation of Smaug",
+  "director": "J.R.R. Tolkein",
+  "anio": 2013,
+  "saga": "The Hobbit",
+  "sinopsis": "The dwarves,along with Bilbo Baggins and Gandalf the Grey, continue their quest to reclaimErebor, their homeland, from Smaug. Bilbo Baggins is in possession of amysterious and magical ring."
+},{
+  "_id": {
+    "$oid": "6363d81657f14a271f2a2ba4"
+  },
+  "titulo": "The Hobbit: The Battle of the Five Armies",
+  "director": "J.R.R. Tolkein",
+  "anio": 2012,
+  "saga": "The Hobbit",
+  "sinopsis": "Bilbo and Company are forced to engage in a war against an arrayof combatants and keep the Lonely Mountain from falling into the hands of arising darkness."
+},{
+  "_id": {
+    "$oid": "6363d81657f14a271f2a2ba5"
+  },
+  "titulo": "Pee Wee Herman's Big Adventure"
+},{
+  "_id": {
+    "$oid": "6363d81657f14a271f2a2ba6"
+  },
+  "titulo": "Avatar"
+}]
