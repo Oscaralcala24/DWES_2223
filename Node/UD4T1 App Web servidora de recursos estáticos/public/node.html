@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style-node-express.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/img/node.png" alt="node">
+        </header>
+        <main>
+            <div>
+                <h1>¿Qué es node?</h1>
+                <p>Node.js es un entorno de tiempo de ejecución de JavaScript (de ahí su terminación en .js haciendo alusión al lenguaje JavaScript). Este entorno de tiempo de ejecución en tiempo real incluye todo lo que se necesita para ejecutar un programa escrito en JavaScript. También aporta muchos beneficios y soluciona muchísimos problemas, por lo que sería más que interesante realizar nuestro curso de Node.js para obtener las bases, conceptos y habilidades necesarias que nos motiven a profundizar en sus opciones e iniciar la programación. </p>
+                <p>Node.js fue creado por los desarrolladores originales de JavaScript. Lo transformaron de algo que solo podía ejecutarse en el navegador en algo que se podría ejecutar en los ordenadores como si de aplicaciones independientes se tratara. Gracias a Node.js se puede ir un paso más allá en la programación con JavaScript no solo creando sitios web interactivos, sino teniendo la capacidad de hacer cosas que otros lenguajes de secuencia de comandos como Python pueden crear. </p> 
+                <p>Tanto JavaScript como Node.js se ejecutan en el motor de tiempo de ejecución JavaScript V8 (V8 es el nombre del motor de JavaScript que alimenta Google Chrome. Es lo que toma nuestro JavaScript y lo ejecuta mientras navega con Chrome). Este motor coge el código JavaScript y lo convierte en un código de máquina más rápido. El código de máquina es un código de nivel más bajo que la computadora puede ejecutar sin necesidad de interpretarlo primero, ignorando la compilación y por lo tanto aumentando su velocidad. </p>
+            </div>
+            <div>
+                <h3>En la línea 1 se carga el módulo “http” mediante la función require() y se almacena en la variable http:</h3>
+                <img src="assets/img/Captura1.PNG" alt="captura1">
+                <h3>En la línea 2 se define el número de puerto 8080 y se guarda en la variable port:</h3>
+                <img src="assets/img/Captura2.PNG" alt="captura1">
+                <h3>Desde la línea 3 hasta la 6 se define, con ayuda de la función createServer() del módulo http, una función callback, que acepta las peticiones entrantes del navegador (req) y las responde (res). Esta respuesta se compone del header que contiene el código de estado HTTP 200 (OK), así como la información de que el resto de la respuesta consiste en un texto. Este texto se incluye al final con la función res.end(). El contenido es “Hello World!”.</h3>
+                <img src="assets/img/Captura3.PNG" alt="captura1">
+                <h3>La función listen() sirve para conectar al servidor web con el número de puerto definido anteriormente:</h3>
+                <img src="assets/img/Captura4.PNG" alt="captura1">
+                <h3>La ultima línea emite en la consola la dirección web donde está disponible el servidor web:</h3>
+                <img src="assets/img/Captura5.PNG" alt="captura1">
+            </div>
+            <a href="index.html">Volver atrás</a>
+        </main>
+    </div>
+</body>
+</html>

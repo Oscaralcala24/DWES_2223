@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style-node-express.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="assets/img/node.png" alt="node">
+        </header>
+        <main>
+            <div>
+                <h1>¿Qué es node?</h1>
+                <p>Express.js, a veces también llamado «Express», es un framework de backend Node.js minimalista, rápido y similar a Sinatra, que proporciona características y herramientas robustas para desarrollar aplicaciones de backend escalables. Te ofrece el sistema de enrutamiento y características simplificadas para ampliar el framework con componentes y partes más potentes en función de los casos de uso de tu aplicación.</p>
+                <p>El framework proporciona un conjunto de herramientas para aplicaciones web, peticiones y respuestas HTTP, enrutamiento y middleware para construir y desplegar aplicaciones a gran escala y preparadas para la empresa.</p>
+                <p>También proporciona una herramienta de interfaz de línea de comandos (CLI) llamada Node Package Manager (NPM), donde los desarrolladores pueden obtener paquetes desarrollados. También obliga a los desarrolladores a seguir el principio de No te repitas (DRY).</p>
+                <p>El principio DRY pretende reducir la repetición de patrones de software, sustituyéndolos por abstracciones, o utilizando normalizaciones de datos para evitar la redundancia.</p>
+            </div>
+            <div>
+                <h3>En la línea 1 se carga el módulo “express” mediante la función require() y se almacena en la variable express:</h3>
+                <img src="assets/img/Captura6.PNG" alt="captura6">
+                <h3>En la línea 2 se define el número de puerto 3000 y se guarda en la variable port:</h3>
+                <img src="assets/img/Captura2.PNG" alt="captura2">
+                <h3>En la línea 3 se define un objeto de modulo “express”</h3>
+                <img src="assets/img/Captura7.PNG" alt="captura1">
+                <h3>Aquí estamos creando una función de devolución de llamada. Esta función se llamará cada vez que alguien navegue a la raíz de nuestra aplicación web que es http://localhost:3000. La función de devolución de llamada se utilizará para enviar la cadena ‘Hello World’ a la página web.</h3>
+                <h3>En la función de devolución de llamada, estamos enviando la cadena “Hello World” al cliente. El parámetro ‘res’ se usa para enviar contenido de vuelta a la página web. Este parámetro ‘res’ es algo que proporciona el módulo ‘solicitud’ para permitir que uno envíe contenido de vuelta a la página web.</h3>
+                <img src="assets/img/Captura8.PNG" alt="captura1">
+                <h3>Estamos utilizando la función de escuchar para hacer que nuestra aplicación de servidor escuche las solicitudes de los clientes en el puerto definido previamente</h3>
+                <img src="assets/img/Captura9.PNG" alt="captura1">
+            </div>
+            <a href="index.html">Volver atrás</a>
+        </main>
+    </div>
+</body>
+</html>

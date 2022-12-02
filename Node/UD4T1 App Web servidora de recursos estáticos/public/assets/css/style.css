@@ -1,0 +1,20 @@
+body{
+    background: rgb(165,237,75);
+    background: linear-gradient(90deg, rgba(165,237,75,1) 0%, rgba(243,246,96,1) 100%);
+}
+h1{
+    text-align: center;
+
+}
+.contenedor-imagenes{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    margin-top: 50px;
+    text-align: center;
+}
+img{
+    width: 30%;
+    flex-grow: 1;
+}
